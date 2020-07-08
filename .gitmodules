@@ -1,0 +1,6 @@
+[submodule "objects"]
+	path = objects
+	url = https://github.com/OpenRCT2/objects
+[submodule "Blender-RCT-Graphics"]
+	path = Blender-RCT-Graphics
+	url = https://github.com/oli414/Blender-RCT-Graphics/
