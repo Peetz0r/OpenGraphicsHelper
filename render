@@ -1,0 +1,3 @@
+#!/bin/bash
+
+blender-2.79b-linux-glibc219-x86_64/blender --addons rct_graphics_helper -b -P blenderscript.py | grep -v 'Fra:'

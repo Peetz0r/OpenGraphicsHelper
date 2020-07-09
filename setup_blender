@@ -1,0 +1,10 @@
+#!/bin/sh
+
+echo ' ➡ Downloading and extracting Blender 2.79b'
+wget https://download.blender.org/release/Blender2.79/blender-2.79b-linux-glibc219-x86_64.tar.bz2 -O- | tar -xj --totals
+
+echo ' ➡ symlinking RCT Graphics Helper Addon'
+ln -s '../../../../Blender-RCT-Graphics/RCT Graphics Helper Addon/rct_graphics_helper/' 'blender-2.79b-linux-glibc219-x86_64/2.79/scripts/addons/'
+
+echo ' ➡ Testing addon'
+blender-2.79b-linux-glibc219-x86_64/blender --addons rct_graphics_helper -b
