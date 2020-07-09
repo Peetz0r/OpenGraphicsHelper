@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo ' ➡ Updating submodules (Helper Addon (~350 MB) and OpenRCT2 objects)'
+echo ' ➡ Updating submodules (Helper Addon and OpenRCT2 objects)'
 git submodule update --init --progress
 
 echo ' ➡ Downloading and extracting Blender 2.79b (~140 MB)'
