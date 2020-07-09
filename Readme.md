@@ -1,4 +1,4 @@
-Run `setup_blender` once. This will download blender 2.79b, extract it, and the helper addon.
+Run `setup_blender` once. This will update submodules, download and extract blender 2.79b, and install the helper addon.
 
 Then run `render` to render everything. That's all.
 

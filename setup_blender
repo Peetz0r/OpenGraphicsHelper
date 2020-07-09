@@ -1,6 +1,9 @@
 #!/bin/sh
 
-echo ' ➡ Downloading and extracting Blender 2.79b'
+echo ' ➡ Updating submodules (Helper Addon (~350 MB) and OpenRCT2 objects)'
+git submodule update --init --progress
+
+echo ' ➡ Downloading and extracting Blender 2.79b (~140 MB)'
 wget https://download.blender.org/release/Blender2.79/blender-2.79b-linux-glibc219-x86_64.tar.bz2 -O- | tar -xj --totals
 
 echo ' ➡ symlinking RCT Graphics Helper Addon'
